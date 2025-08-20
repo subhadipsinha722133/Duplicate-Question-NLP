@@ -2,10 +2,6 @@
 The "Duplicate Question Pairs" task in Natural Language Processing (NLP) involves determining whether two questions have the same meaning, even if they are phrased differently. The goal is to identify semantic equivalence, not just word-for-word similarity.
 ![Project Sample](sample.png)
 
-# Duplicate Question NLP
-
-The "Duplicate Question Pairs" task in Natural Language Processing (NLP) involves determining whether two questions have the same meaning, even if they are phrased differently. The goal is to identify semantic equivalence, not just word-for-word similarity.
-
 ## Project Features
 
 - **Semantic Equivalence Detection:** Uses NLP models to determine if a pair of questions are duplicates.
