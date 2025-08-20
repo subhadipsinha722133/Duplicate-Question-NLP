@@ -8,7 +8,7 @@ import numpy as np
 # warnings.
 from nltk.corpus import stopwords
 
-cv = pickle.load(open(r'D:\CODING\PYTHON\NLP\7.quora-question-pairs-main\cv.pkl','rb'))
+cv = pickle.load(open('cv.pkl','rb'))
 
 
 def test_common_words(q1,q2):
@@ -313,5 +313,6 @@ def query_point_creator(q1, q2):
 
     # bow feature for q2
     q2_bow = cv.transform([q2]).toarray()
+
 
     return np.hstack((np.array(input_query).reshape(1, 22), q1_bow, q2_bow))
